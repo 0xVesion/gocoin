@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/0xVesion/gocoin/pb"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"vesion.io/go/gocoin/pb"
 )
 
 var _ pb.NodeServer = (*NodeServer)(nil)

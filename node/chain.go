@@ -4,7 +4,7 @@ import (
 	"log"
 	"sync"
 
-	"vesion.io/go/gocoin/core"
+	"github.com/0xVesion/gocoin/core"
 )
 
 type Chain struct {

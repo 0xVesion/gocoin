@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/0xVesion/gocoin/core"
+	"github.com/0xVesion/gocoin/miner"
+	"github.com/0xVesion/gocoin/pb"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"vesion.io/go/gocoin/core"
-	"vesion.io/go/gocoin/miner"
-	"vesion.io/go/gocoin/pb"
 )
 
 func main() {

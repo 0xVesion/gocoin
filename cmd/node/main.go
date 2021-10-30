@@ -4,9 +4,9 @@ import (
 	"log"
 	"net"
 
+	"github.com/0xVesion/gocoin/node"
+	"github.com/0xVesion/gocoin/pb"
 	"google.golang.org/grpc"
-	"vesion.io/go/gocoin/node"
-	"vesion.io/go/gocoin/pb"
 )
 
 func main() {

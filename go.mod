@@ -1,4 +1,4 @@
-module vesion.io/go/gocoin
+module github.com/0xVesion/gocoin
 
 go 1.17
 
