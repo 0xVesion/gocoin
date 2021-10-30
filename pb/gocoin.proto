@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "vesion.io/go/gocoin/pb";
+
+import "google/protobuf/empty.proto";
+package gocoin;
+
+service Node {
+    rpc StreamTasks(google.protobuf.Empty) returns (stream Task) {}
+    rpc SubmitTask(Submission) returns (google.protobuf.Empty) {}
+}
+
+message Task {
+    uint32 difficulty = 1;
+
+    string Parent    = 2;
+	string Timestamp = 3;
+	string Data      = 4;
+}
+
+message Submission {
+    string nonce = 1;
+}
