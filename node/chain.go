@@ -4,7 +4,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/0xVesion/gocoin/core"
+	"github.com/0xvesion/gocoin/core"
 )
 
 type Chain struct {

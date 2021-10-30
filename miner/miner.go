@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/0xVesion/gocoin/core"
+	"github.com/0xvesion/gocoin/core"
 )
 
 func Mine(onCancel chan interface{}, block *core.Block, difficulty int, result chan string) {

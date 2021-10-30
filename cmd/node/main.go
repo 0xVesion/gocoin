@@ -4,8 +4,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/0xVesion/gocoin/node"
-	"github.com/0xVesion/gocoin/pb"
+	"github.com/0xvesion/gocoin/node"
+	"github.com/0xvesion/gocoin/pb"
 	"google.golang.org/grpc"
 )
 

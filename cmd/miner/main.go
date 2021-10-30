@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/0xVesion/gocoin/core"
-	"github.com/0xVesion/gocoin/miner"
-	"github.com/0xVesion/gocoin/pb"
+	"github.com/0xvesion/gocoin/core"
+	"github.com/0xvesion/gocoin/miner"
+	"github.com/0xvesion/gocoin/pb"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 )

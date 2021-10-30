@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/0xVesion/gocoin/pb";
+option go_package = "github.com/0xvesion/gocoin/pb";
 
 import "google/protobuf/empty.proto";
 package gocoin;

@@ -1,4 +1,4 @@
-module github.com/0xVesion/gocoin
+module github.com/0xvesion/gocoin
 
 go 1.17
 

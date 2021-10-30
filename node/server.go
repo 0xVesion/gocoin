@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/0xVesion/gocoin/pb"
+	"github.com/0xvesion/gocoin/pb"
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 
